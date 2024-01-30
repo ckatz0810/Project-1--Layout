@@ -1,0 +1,37 @@
+@font-face {
+    font-family: poke;
+    src: url(../media/Fonts/PressStart2P-Regular.ttf);
+}
+
+h1{
+    font-family: poke;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: double;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+body{
+    background-color: red;
+
+}
+
+.bulbasaur{
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+.charmander{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.squirtle{
+    margin-right: 200px;
+    margin-left: 200px;
+}

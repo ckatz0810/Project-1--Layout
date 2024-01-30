@@ -1,0 +1,33 @@
+@font-face {
+    font-family: poke;
+    src: url(../media/Fonts/);
+}
+
+h1{
+    font-family: poke;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: rgb(212, 98, 98);
+}
+
+p{
+    width: 400px
+    ;
+}
+
+strong{
+    color: blue;
+    font-size: x-large;
+}
