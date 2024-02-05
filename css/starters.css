@@ -3,8 +3,13 @@
     src: url(../media/Fonts/PressStart2P-Regular.ttf);
 }
 
+@font-face {
+    font-family: eight;
+    src: url(../media/Fonts/PixeloidSans-mLxMm.ttf);
+}
+
 h1{
-    font-family: poke;
+    font-family: eight;
     width: fit-content;
     text-align: center;
     margin-left: auto;
@@ -12,26 +17,88 @@ h1{
     border: 10px;
     border-style: double;
     background-color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 15px;
+    letter-spacing: 3px;
+    font-size: 50px;
 }
 
 body{
-    background-color: red;
+    background-color: rgb(112, 112, 112);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../media/images/8-Bit\ Bricks\ Grey.jpg);
+    background-size: 500px;
+}
+
+.pokeballs{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    background-color: rgb(94, 232, 124);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(71, 180, 95);
+
+}
+.pokeballs button{
+    background-color: rgb(112, 112, 112);
+    border: none;
+    background-color: rgb(94, 232, 124);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pokeballs img{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: fit-content;
+}
+
+.starting3{
+    background-color: aliceblue;
+    border: 3px;
+    border-radius: 10px;
+
+    border-style: solid;
+   display: block;
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0px;
+
+
 
 }
 
-.bulbasaur{
-    margin-right: 200px;
-    margin-left: 200px;
-
+.starting3 img{
+    margin-right: 100px;
+    margin-left: 110px;
 }
 
-.charmander{
-    margin-right: 200px;
-    margin-left: 200px;
+.oak{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
-.squirtle{
-    margin-right: 200px;
-    margin-left: 200px;
+.home button{
+    font-size: large;
+    background-color:rgb(41, 39, 39);
+    color: white;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: fit-content;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home button:hover{
+    background-color: rgb(116, 42, 42);
 }

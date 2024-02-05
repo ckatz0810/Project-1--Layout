@@ -1,0 +1,36 @@
+body{
+    background-image: url(../media/images/Lavender_Town_screenshot.jpg);
+    background-size: cover;
+}
+
+.home button{
+    font-size: large;
+    background-color:rgb(41, 39, 39);
+    color: white;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: fit-content;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    margin-left: 200px;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home button:hover{
+    background-color: rgb(116, 42, 42);
+}
+
+audio{
+
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px;
+    border-style: solid;
+    border-radius: 50px;
+}

@@ -1,0 +1,199 @@
+@font-face {
+    font-family: eight;
+    src: url(../media/Fonts/PixeloidSans-mLxMm.ttf);
+}
+
+@font-face {
+    font-family: bits;
+    src: url(../media/Fonts/PressStart2P-Regular.ttf);
+}
+
+.firetype{
+    width: fit-content;
+    background-color: rgb(223, 95, 95);
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(132, 30, 30);
+    padding: 1px 10px;
+    font-family: eight;
+    color: white;
+    text-shadow: 2px 0px black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+
+}
+
+body{
+    background-color: red ;
+    background-image: url(../media/images/pokemondex.jpg);
+    background-size: cover;
+    font-family: eight;
+}
+
+p{
+    line-height: 1.8;
+    text-align: right;
+}
+
+ .cry{
+width: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+    }
+
+.evos img{
+    width: 100px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 70px;
+    background-color: rgb(70, 147, 80);
+    padding: 10px 10px;
+   
+}
+
+.arrow{
+    display: inline;
+    
+    font-size: 50px;
+    margin: 10px 10px;
+
+
+}
+
+.stf{
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.char{
+width: 300px;
+}
+
+.buynow button{
+    font-size: 20px;
+    background-color:rgb(41, 39, 39);
+    color: white;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    width: fit-content;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.buynow button:hover{
+    background-color: rgb(116, 42, 42);
+}
+
+.buynow{
+margin-left: 400px;
+}
+
+.back button{
+    font-size: 20px;
+    background-color:rgb(41, 39, 39);
+    color: white;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    width: fit-content;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.back button:hover{
+    background-color: rgb(116, 42, 42);
+}
+
+.back{
+    margin-right: 10px;
+}
+
+.butts{
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+    margin-top: 700px;
+}
+
+.nameno{
+    font-family: bits;
+
+}
+
+.crytitle{
+    font-family: bits;
+}
+
+.line{
+    font-family: bits;
+    text-align: center;
+    font-size: 25px;
+}
+
+.entry{
+    border-style: solid;
+    padding: 10px 10px;
+    border-top: none;
+    border-bottom: none;
+    background-color: whitesmoke;
+    border-color: rgb(249, 95, 39);
+    border-width: 10px;
+    box-shadow: 5px 5px rgb(77, 38, 38);
+    border-radius: 10px;
+    outline: 2px black solid;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cla{
+    font-size: 20px;
+}
+
+.maininfo{
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(195, 195, 195);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 100px;
+    display: block;
+    margin-top: 700px;
+    padding-left: 100px;
+
+}
+
+.char{
+    display: inline;
+    margin: 0px 0px;
+    position: absolute;
+   margin-bottom: 0px;
+   margin-left: 40%;
+}
+
+audio{
+   position: absolute;
+}
+
+
+
+
